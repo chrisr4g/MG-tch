@@ -15,4 +15,6 @@ After environment is set up you need to run :
 4. composer dump-autoload -o
 5. php artisan migrate:fresh
 6. crontab -e
+```
 * * * * * php /path/to/artisan schedule:run >> /dev/null 2>&1
+```
